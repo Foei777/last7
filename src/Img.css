@@ -1,0 +1,24 @@
+/* App.css */
+.Imres {
+    text-align: center;
+  }
+  
+  /* ImageUpload.css */
+  .ImageUpload {
+    margin-top: 20px;
+  }
+  
+  .ImageUpload input[type="file"] {
+    display: none;
+  }
+  
+  .ImageUpload img {
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  /* ImageDisplay.css */
+  .ImageDisplay img {
+    max-width: 100%;
+  }
+  

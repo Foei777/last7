@@ -1,0 +1,70 @@
+/* Header.css */
+
+.masthead {
+    background-image: url('https://www.hotelscombined.co.th/himg/e7/b0/d2/leonardo-2680682-Terrasse_nuit_SCO_Hotel_Metropole_MC_W.Pryce_O-492714.jpg'); /* แทน path/to/your/background-image.jpg ด้วยที่อยู่รูปภาพของคุณ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fbfbfb; /* สีข้อความ */
+  }
+  
+  .masthead h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .masthead .btn-primary {
+    font-size: 1.2em;
+  }
+
+  .masthead .mx-auto {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #0d0d0d;
+  }
+  
+  .login-component {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-component h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .login-component label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .login-component input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-component button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-component button:hover {
+    background-color: #0056b3;
+  }
+  

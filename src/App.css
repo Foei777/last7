@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.project img {
+  max-width: 100%; /* รูปภาพจะไม่เกินขนาดของพ่อคุณ */
+  height: auto; /* รักษาสัดส่วนของรูปภาพ */
+}

@@ -1,0 +1,59 @@
+.about-section {
+    padding: 50px 0; /* เพิ่มระยะห่างด้านบนและด้านล่าง */
+    background-image:url(https://cdn05.zipify.com/3-2TeqDFguNBUYIpwswyxg21548=/fit-in/3840x0/0f37e24d52184b958f9bef754b133350/image.jpeg)
+
+  }
+  
+  .about-section h2 {
+    font-size: 36px; /* ปรับขนาดตัวอักษรของหัวข้อ h2 */
+    color: #333; /* เปลี่ยนสีข้อความ */
+  }
+  
+  .about-section p {
+    font-size: 30px; /* ปรับขนาดตัวอักษรของย่อหน้า */
+    color: #666; /* เปลี่ยนสีข้อความ */
+  }
+  
+  .about-section form {
+    margin-top: 40px;
+    font-size: 40px;
+    color:rgb(2, 217, 73)
+  }
+  
+  .about-section input {
+    margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่างของ input */
+  }
+  
+  .about-section button {
+    padding: 10px 20px; /* เพิ่มขนาดของปุ่ม */
+    font-size: 16px; /* ปรับขนาดตัวอักษรของปุ่ม */
+    background-color: #007bff; /* เปลี่ยนสีพื้นหลังของปุ่ม */
+    color: #fff; /* เปลี่ยนสีข้อความของปุ่ม */
+    border: none; /* ลบเส้นขอบของปุ่ม */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นเคอร์เซอร์ที่เหมาะสม */
+  }
+  
+  .about-section button:hover {
+    background-color: #0056b3; /* เปลี่ยนสีพื้นหลังของปุ่มเมื่อโฮเวอร์ */
+  }
+  
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.about button:hover {
+  background-color: #034795;
+}
+
+.about label {
+  margin-right: 10px;
+}
+
+  
+

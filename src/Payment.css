@@ -1,0 +1,65 @@
+/* App.css */
+
+/* Container for product display */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Individual product card */
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .product img {
+    width: 250px; /* Increase image width */
+    height: auto;
+    margin-bottom: 20px; /* Increase margin */
+  }
+  
+  .description {
+    text-align: center;
+  }
+  
+  .description h3 {
+    margin: 0;
+    font-size: 2rem; /* Increase heading font size */
+    color: #333;
+  }
+  
+  .description h5 {
+    margin: 0;
+    font-size: 1.5rem; /* Increase subheading font size */
+    color: #666;
+  }
+  
+  /* Checkout button */
+  button {
+    padding: 15px 30px; /* Increase button padding */
+    font-size: 1.2rem; /* Increase button font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message container */
+  p {
+    font-size: 1.5rem; /* Increase message font size */
+    text-align: center;
+    color: #333;
+  }
