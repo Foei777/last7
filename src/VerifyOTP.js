@@ -39,13 +39,18 @@ function App() {
 
   const handlePinChange = (e, index) => {
     const newPin = [...pin];
-    newPin[index] = e.target.value;
+    const inputValue = e.target.value;
 
-    if (index < 5 && e.target.value !== '') {
-      pinInputs.current[index + 1].focus();
+    // ตรวจสอบว่าค่าที่กรอกเป็นตัวเลขหรือไม่
+    if (/^\d*$/.test(inputValue)) {
+      newPin[index] = inputValue;
+
+      if (index < 5 && inputValue !== '') {
+        pinInputs.current[index + 1].focus();
+      }
+
+      setPin(newPin);
     }
-
-    setPin(newPin);
   };
 
   const handleKeyDown = (e, index) => {
